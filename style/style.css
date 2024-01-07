@@ -1,0 +1,63 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+} */
+
+.banner {
+    background-image: url("../resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    margin: 10px 140px;
+    background-size: contain;
+    background-position: 100%;
+    background-position: center;
+    height: 600px;
+    border-radius: 16px;
+    background-color: #070211, #07021100;
+}
+
+.banner-text {
+    color: #FFFFFF;
+    margin: 18% 18% 0 18%;
+    padding: 18% 18% 0 18%;
+    text-align: center;
+    font-size: 32px;
+}
+
+.banner-content{
+    padding: 0px 5% 5% 8%;
+    
+}
+
+/* main section style */
+
+.offer{
+    margin: 0 200px;
+    padding: 0 150px;
+
+}
+.discount{
+    text-align: center;
+    color: #FF0000;
+    font-size: 88px;
+    font-weight: 700;
+}
+.discount-title{
+    text-align: center;
+    color: #FF0000;
+}
+.categories{
+    text-align: center;
+    color: #070211;
+    font-weight: 700;
+}
+.offer-image{
+    
+}
+/* footer style */
+
+.contact{
+    background-color: #070211;
+    width: 1290px;
+    height: 600px;
+}
