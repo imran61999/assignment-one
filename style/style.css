@@ -4,7 +4,7 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-* {
+body {
     margin: 0;
     padding: 0;
 }
@@ -75,6 +75,7 @@ body {
     background-position: inherit;
     display: flex;
     padding: 100px;
+    background-size: 1320px 600px;
 }
 
 .section-heading h3 {
@@ -105,26 +106,151 @@ body {
     font-weight: 700;
     text-transform: uppercase;
 }
+
 /* section three style */
-#section-description{
-    margin:0 120px 50px 120px;
+#section-description {
+    margin: 0 120px 50px 120px;
 }
-.hotel-contact{
+
+.hotel-contact {
     background-color: rgba(204, 184, 184, 0.904);
     padding: 100px;
 }
-.main-section{
+
+.main-section {
     text-align: center;
     /* padding: 100px; */
 }
-.now{
+
+.now {
     justify-content: center;
 }
+
+/* section five style */
+
+#section-five {
+    margin: 130px 130px 20px 130px;
+}
+
+.title {
+    text-align: left top;
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-five-heading {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.section-five-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-right: 330px;
+    margin-top: 10px;
+
+}
+
+.image-part-one>img {
+    width: 321px;
+    height: 346px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.image-part-two>img {
+    width: 321px;
+    height: 346px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+
+/* section six style */
+#section-six {
+    margin: 0 130px 50px 130px;
+    text-align: center;
+}
+
+.final-section {
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 60px;
+
+}
+
+.final-section>p {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.final-section form {
+    display: flex;
+}
+
+.final-section form input {
+    width: 600px;
+}
+
+
 
 /* footer style */
 
 .contact {
     background-color: #070211;
-    width: 1290px;
-    height: 600px;
+    width: 1300px;
+    height: 500px;
+}
+
+.addres-and-phone {
+    margin: 130px 130px 0px 130px;
+}
+
+.addres {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
+.number,
+.website {
+    display: flex;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px
+}
+
+.addres-and-phone {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-bottom: 0px;
+}
+
+.addres-and-phone>p {
+    padding-right: 280px;
+}
+
+.link {
+    text-align: center;
+}
+
+.final-footer {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 120px;
+    padding-right: 100px;
 }
