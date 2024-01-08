@@ -1,19 +1,27 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
 body {
     font-family: 'Merriweather', serif;
-} */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 .banner {
     background-image: url("../resources/Banner\ Image.png");
     background-repeat: no-repeat;
-    margin: 10px 140px;
+    margin: 0px 40px;
     background-size: contain;
-    background-position: 100%;
+    /* background-position: 100%; */
+    position: relative;
     background-position: center;
     height: 600px;
     border-radius: 16px;
     background-color: #070211, #07021100;
+    filter: brightness(.5);
+    margin-top: 2px;
 }
 
 .banner-text {
@@ -24,39 +32,98 @@ body {
     font-size: 32px;
 }
 
-.banner-content{
+.banner-content {
     padding: 0px 5% 5% 8%;
-    
+
 }
 
 /* main section style */
 
-.offer{
+.offer {
     margin: 0 200px;
     padding: 0 150px;
 
 }
-.discount{
+
+.discount {
     text-align: center;
     color: #FF0000;
     font-size: 88px;
     font-weight: 700;
 }
-.discount-title{
+
+.discount-title {
     text-align: center;
     color: #FF0000;
 }
-.categories{
+
+.categories {
     text-align: center;
     color: #070211;
     font-weight: 700;
 }
-.offer-image{
-    
+
+/* section two style */
+
+#party {
+    margin: 120px;
 }
+
+.image-container {
+    background-image: url("../resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: inherit;
+    display: flex;
+    padding: 100px;
+}
+
+.section-heading h3 {
+    color: #FFF;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 7.04px;
+    padding-top: 10px;
+}
+
+.section-description {
+    color: rgba(252, 249, 252, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    padding: 50PX 0PX 20PX 0PX;
+}
+
+.Join {
+    color: #FFF;
+    /* text-align: left; */
+    padding-left: 60px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* section three style */
+#section-description{
+    margin:0 120px 50px 120px;
+}
+.hotel-contact{
+    background-color: rgba(204, 184, 184, 0.904);
+    padding: 100px;
+}
+.main-section{
+    text-align: center;
+    /* padding: 100px; */
+}
+.now{
+    justify-content: center;
+}
+
 /* footer style */
 
-.contact{
+.contact {
     background-color: #070211;
     width: 1290px;
     height: 600px;
