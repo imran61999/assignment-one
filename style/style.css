@@ -4,32 +4,36 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-body {
+* {
     margin: 0;
     padding: 0;
 }
 
-.banner {
-    background-image: url("../resources/Banner\ Image.png");
+.demo {
+
+    background-image: url("../resources/BannerImage.png");
     background-repeat: no-repeat;
-    margin: 0px 40px;
-    background-size: contain;
-    /* background-position: 100%; */
-    position: relative;
-    background-position: center;
-    height: 600px;
-    border-radius: 16px;
-    background-color: #070211, #07021100;
-    filter: brightness(.5);
-    margin-top: 2px;
+    background-size: 1100px 400px;
+    background-position: center center;
+    padding: 5px;
+    /* margin: 10px 130px 10px 130px; */
+}
+
+.container {
+    margin: 0 100px 0px 50px;
+}
+
+.banner {
+    background-position: center center;
+    margin-top: 0;
 }
 
 .banner-text {
     color: #FFFFFF;
-    margin: 18% 18% 0 18%;
+    margin: 0 18% 0 18%;
     padding: 18% 18% 0 18%;
     text-align: center;
-    font-size: 32px;
+    font-size: 22px;
 }
 
 .banner-content {
@@ -40,16 +44,25 @@ body {
 /* main section style */
 
 .offer {
-    margin: 0 200px;
-    padding: 0 150px;
+    margin: 0 200px 0 200px;
+    padding: 0 150px 0 150px;
 
 }
 
 .discount {
-    text-align: center;
+    /* text-align: center;
     color: #FF0000;
     font-size: 88px;
     font-weight: 700;
+    color: #F00; */
+
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .discount-title {
@@ -110,20 +123,164 @@ body {
 /* section three style */
 #section-description {
     margin: 0 120px 50px 120px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .hotel-contact {
-    background-color: rgba(204, 184, 184, 0.904);
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     padding: 100px;
 }
 
 .main-section {
     text-align: center;
+    /* padding: 5px; */
     /* padding: 100px; */
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.hotel-contact button {
+    display: flex;
+    margin: auto;
+    background-color: red;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
 }
 
 .now {
     justify-content: center;
+}
+
+/* section four style */
+#section-four {
+    margin: 130px;
+}
+
+.section-four-part {
+    display: flex;
+    gap: 50px;
+}
+
+.part-one {
+    line-height: 5px;
+}
+
+.part-one-title {
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.part-one-headig {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-right: 10px;
+    padding-bottom: 0;
+
+}
+
+.part-one-description {
+    width: 330px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.part-two img {
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+
+}
+
+.year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 30px;
+}
+
+.part-three-description {
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+.part-three-image {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    padding: 60px 0 0 0;
+}
+
+/* sub section five style */
+#sub-section {
+    margin: 130px;
+}
+
+.sub-section-two .image-1 {
+    float: right;
+}
+
+.sub-section-one {
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.sub-section-one>h5 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sub-section-one>h1 {
+    color: black;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
 
 /* section five style */
@@ -198,6 +355,38 @@ body {
     width: 600px;
 }
 
+.sub {
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.sub input {
+    /* width: 180px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF; */
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+}
+
+.sub button {
+    width: 180px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
 
 
 /* footer style */
@@ -206,6 +395,11 @@ body {
     background-color: #070211;
     width: 1300px;
     height: 500px;
+}
+
+.contact hr {
+    width: 1300px;
+    height: 0.5px;
 }
 
 .addres-and-phone {
@@ -251,6 +445,7 @@ body {
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
-    padding-left: 120px;
-    padding-right: 100px;
+    padding-left: 100px;
+    padding-right: 190px;
+    padding-top: 50px;
 }
